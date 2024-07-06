@@ -20,8 +20,10 @@ public:
     sexp bindProc4(const char* name, int num_args, sexp (*f)(sexp, sexp, sexp, sexp, sexp, sexp, sexp));
 
     sexp getProcFromName(const char* name);
+    sexp callProc(sexp proc, sexp args);
+
     sexp getContext() { return this->ctx; }
     sexp getEnv() { return this->env; }
-    
+
     ~Rscript();
 };
