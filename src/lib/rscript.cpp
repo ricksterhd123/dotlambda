@@ -26,6 +26,16 @@ sexp Rscript::bindProc1(const char *name, int num_args, sexp (*f)(sexp, sexp, se
     return sexp_define_foreign(this->ctx, this->env, name, num_args, f);
 }
 
+sexp Rscript::bindProc2(const char *name, int num_args, sexp (*f)(sexp, sexp, sexp, sexp, sexp))
+{
+    return sexp_define_foreign(this->ctx, this->env, name, num_args, f);
+}
+
+sexp Rscript::bindProc3(const char *name, int num_args, sexp (*f)(sexp, sexp, sexp, sexp, sexp, sexp))
+{
+    return sexp_define_foreign(this->ctx, this->env, name, num_args, f);
+}
+
 sexp Rscript::bindProcOpt1(const char *name, int num_args, sexp (*f)(sexp, sexp, sexp, sexp))
 {
     return sexp_define_foreign_opt(this->ctx, this->env, name, num_args, f, SEXP_NULL);

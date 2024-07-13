@@ -16,3 +16,37 @@ WIP 3D game stack:
 
 ## Run
 - `./dotlambda`
+
+## TODO
+
+## Client Side
+- [x] scripting API
+### Math
+- [ ] Vector3 (WIP 13/07/24 -)
+- [ ] Matrix
+- [ ] Quarternions
+### World
+- [ ] Camera
+- [ ] Element
+    - [ ] Fx
+    - [ ] Shader
+    - [ ] Physics
+### GUI
+- [ ] GUI elements
+### Audio
+- [ ] 2D audio
+- [ ] 3D audio element
+### Events
+- [ ] timers
+- [ ] event system
+### Input
+- [ ] keyboard/mouse
+- [ ] joystick
+### Input events
+- [ ] input event triggers
+
+## Server-side
+### Authentication / Authorization
+- Use 
+### RPC events
+- trigger client-side event handlers

@@ -6,8 +6,14 @@
 
 (define update
     (lambda (dt)
-        (display dt)
+        (display "Tick")
         (newline)
-        "Hello from scheme"
+    )
+)
+
+(define draw
+    (lambda ()
+        (display "Frame")
+        (newline)
     )
 )
