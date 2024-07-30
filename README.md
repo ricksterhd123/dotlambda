@@ -5,20 +5,23 @@ WIP 3D game stack:
 - bullet3d for physics
 - R7RS scheme for scripting
 
-## Pre-requisites
+## Setup
+### Pre-requisites
 - GNU/Linux x86 (built on WSL)
 - cmake
 - chibi-scheme (run `bash scripts/install-chibi.sh`)
 - Raylib (https://github.com/raysan5/raylib/wiki/Working-on-GNU-Linux) and its dependencies
 
-## Setup
+### Documentation
+- `bash scripts/docs.sh`
+
+### Build
 - `bash scripts/build.sh`
 
-## Run
+### Run
 - `./dotlambda`
 
 ## TODO
-
 ## Client Side
 - [x] scripting API
 ### Math
