@@ -3,15 +3,15 @@
 WIP 3D game stack:
 - raylib for audio/math/graphics/rendering, ... as much as possible
 - bullet3d for physics
-- R7RS scheme for scripting
+<!-- - R7RS scheme for scripting (postponed) -->
 
 ## Setup
 ### Pre-requisites
 - GNU/Linux x86 (built on WSL)
 - cmake
 - chibi-scheme (run `bash scripts/install-chibi.sh`)
-- Raylib dependencies (https://github.com/raysan5/raylib/wiki/Working-on-GNU-Linux#install-required-libraries)
-- Raylib (run `bash scripts/install-raylib.sh`)
+<!-- - Raylib dependencies (https://github.com/raysan5/raylib/wiki/Working-on-GNU-Linux#install-required-libraries)
+- Raylib (run `bash scripts/install-raylib.sh`) -->
 
 ### Documentation
 - `bash scripts/docs.sh`
@@ -24,7 +24,7 @@ WIP 3D game stack:
 
 ## TODO
 ## Client Side
-- [x] scripting API
+<!-- - [x] scripting API (proof of concept but too early yet) -->
 ### Math
 - [ ] Vector3 (WIP 13/07/24 -)
 - [ ] Matrix
