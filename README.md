@@ -10,7 +10,8 @@ WIP 3D game stack:
 - GNU/Linux x86 (built on WSL)
 - cmake
 - chibi-scheme (run `bash scripts/install-chibi.sh`)
-- Raylib (https://github.com/raysan5/raylib/wiki/Working-on-GNU-Linux) and its dependencies
+- Raylib dependencies (https://github.com/raysan5/raylib/wiki/Working-on-GNU-Linux#install-required-libraries)
+- Raylib (run `bash scripts/install-raylib.sh`)
 
 ### Documentation
 - `bash scripts/docs.sh`
@@ -50,6 +51,5 @@ WIP 3D game stack:
 
 ## Server-side
 ### Authentication / Authorization
-- Use 
 ### RPC events
 - trigger client-side event handlers

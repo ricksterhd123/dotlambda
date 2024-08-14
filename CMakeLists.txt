@@ -4,7 +4,6 @@ project(dotlambda C CXX)
 configure_file(file.scm file.scm COPYONLY)
 
 set(CMAKE_CXX_STANDARD 17)
-set(raylib_DIR "./build/raylib/cmake")
 find_package(raylib CONFIG REQUIRED)
 
 add_executable(${PROJECT_NAME} src/main.cpp src/lib/rscript.cpp)
