@@ -1,6 +1,7 @@
 #include <iostream>
 #include <raylib.h>
 #include <raymath.h>
+#include <raylib-cpp.hpp>
 
 #define SCREEN_WIDTH (800)
 #define SCREEN_HEIGHT (450)
